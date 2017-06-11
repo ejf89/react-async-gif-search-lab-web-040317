@@ -16,7 +16,7 @@ class GifSearch extends Component{
   handleChange(e){
     e.preventDefault()
     this.setState({
-      seachTerm: e.target.value
+      searchTerm: e.target.value
     })
   }
 
